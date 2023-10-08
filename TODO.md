@@ -1,0 +1,8 @@
+- create planet vars as sliders ideas: {    self.distance_from_sun = 1, self.temperature = 1, self.surface_pressure = 1,  self.sea_level = 0, self.texture = 1, self.mass = 1 ,self.size = 100}
+- use pynoise to generate terrain texture see [this](https://pynoise.readthedocs.io/en/latest/tutorial3.html#creating-the-terrain-height-map)
+- change colour depending on plant varibles
+- finish setting up [WindowPanel](https://www.ursinaengine.org/api_reference.html#WindowPanel)
+- update model from sliders in window panel
+- allow importing planet data from json files
+- create animal clases and place on planet - they work on probility which comes from comparing planet varibles to that of ideal condtions for the animal then creating one with those condtions. 
+- on animal click show widow panel of it's addaptions
